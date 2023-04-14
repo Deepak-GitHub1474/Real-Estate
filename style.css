@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-color: #eaf2f2;
+}
+
+.header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./Assets/Photos/mainBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 125vh;
+  position: relative;
+  color: #ffffff;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 28px 5px;
+}
+
+img[alt="nav-logo-img"]{
+  width: 115px;
+}
+
+.nav-ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#nav-line{
+  height: 1px;
+  width: 85vw;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-highlights{
+  font-size: 35px;
+  max-width: 580px;
+  margin-top: 5.8rem;
+  margin-left: 9rem;
+}
+
+.nav-highlights p{
+  font-size: 18px;
+  margin: 30px 0px;
+}
+
+.nav-btn{
+  height: 45px;
+  width: 160px;
+  background: #6a68ec;
+  color: #ffffff;
+  border-radius: 26px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.logo{
+  background-color: #fff;
+  height: 26vh;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 6.4rem;
+}
+
+.estate-title h1{
+  font-size: 62px;
+  font-weight:900;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+img[alt="estate-img"]{
+  height: 410px;
+  width: 365px;
+  border-radius: 18px;
+}
+
+.estate-img-info{
+  height: 17vh;
+  width: 21vw;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  left: 1.2rem;
+  bottom: 4.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.estate-img-info h1{
+  font-size: 22px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+.estate-img-info p{
+  font-size: 18px;
+  color: #5957ed;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.estate-img-info button{
+  height: 52px;
+  width: 110px;
+  background-color: #6b5be4;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.estate-imgages{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.estate-image-2, .estate-image-8 {
+  position: relative;
+  top: 2rem;
+}
+
+.estate-image-3, .estate-image-9 {
+  position: relative;
+  top: 4rem;
+}
+
+.estate-image-4{
+  position: relative;
+  top: 4rem;
+}
+
+.estate-image-5{
+  position: relative;
+  top: 2rem;
+}
+
+.center-card{
+  margin: 55px 0px;
+}
+
+/* Feature Card 1 */
+
+.feature-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-card-1{
+  position: relative;
+  bottom: 5rem;
+}
+
+.feature-img-bg-1{
+  height: 620px;
+  width: 560px;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.feature-img-1{
+  height: 400px;
+  width: 405px;
+  border-radius: 30px;
+  position: absolute;
+  /* z-index: 2; */
+  left: 6.7rem;
+  bottom: -430px;
+}
+
+/* Feature Card 1 Info */
+
+.feature-card-1-info{
+  position: relative;
+  top: 12rem;
+  right: 10rem;
+}
+
+.feature-card-1-info h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.feature-card-1-info p{
+  max-width: 580px;
+  font-size: 18px;
+  color: #4d4c4c;
+  margin: 30px 0px;
+}
+
+.feature-card-1-info button{
+  height: 45px;
+  width: 190px;
+  background-color: #6b5be4;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+}
+
+/* Feature Card 2 */
+
+.feature-2{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 6rem;
+}
+
+.feature-card-2{
+  position: relative;
+  left: 21.3rem;
+  top: 10rem;
+}
+
+.feature-img-bg-2{
+  height: 450px;
+  width: 700px;
+  position: absolute;
+}
+
+.feature-img-2{
+  height: 400px;
+  width: 405px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: -21.2rem;
+  left: 10.4rem;
+}
+
+/* Feature Card 2 Info */
+
+.feature-card-2-info{
+  position: relative;
+  top: 23rem;
+  left: 3rem;
+}
+
+.feature-card-2-info h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.feature-card-2-info p{ 
+  color: #4d4c4c;
+  margin: 35px 0px;
+  font-size: 18px;
+}
+
+.feature-card-2-info button{
+  height: 45px;
+  width: 190px;
+  background-color: #6b5be4;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+}
+
+/* Newsletter Section */
+
+.newsletter{
+  background-color: #6b5be4;
+  height: 65vh;
+  width: 90vw;
+  border-radius: 60px;
+  position: relative;
+  top: 37rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.newsletter h1{
+  font-size: 60px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.news-heading{
+  margin-left: 26px;
+}
+
+.newsletter p{
+  font-size: 18px;
+  color: #ffffff;
+  margin: 30px 45px;
+}
+
+.news-paragraph{
+  margin-left: 10.4rem;
+}
+
+/* Newsletter Form Section */
+
+.news-email-section{
+  background-color: #504ed4;
+  height: 8vh;
+  width: 30vw;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 16rem;
+}
+
+.news-email-section img{
+  position: relative;
+  left: 20px;
+}
+
+#email{
+  position: relative;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+.news-email-section button{
+  background: #ffffff;
+  color: #6663e9;
+  height: 8vh;
+  width: 11vw;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  left: 15rem;
+}
+
+/* Footer Section */
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 400px;
+  margin-top: 42rem;
+  margin-bottom: 5rem;
+}
+
+img[alt="footer-logo-img"]{
+  height: 50px;
+}
+
+.footer-social-media img{
+  width: 45px;
+  margin: 20px 0px;
+  gap: 20px;
+  padding-right: 22px;
+}
+
+.footer p{
+  font-size: 20px;
+}
+
+.footer-links{
+  display: flex;
+  gap: 60px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-ul li a{
+  gap: 20px;
+  color: #000000;
+  line-height: 40px;
+}
